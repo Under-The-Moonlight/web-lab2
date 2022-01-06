@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  word-break: break-all;
+}
+
+header,
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(73, 92, 99);
+  float: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#block1 {
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-width: 10%;
+  max-width: 30%;
+  min-height: 30%;
+  text-align: left;
+  width: 50%;
+}
+
+#blockX {
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgb(118, 219, 236);
+  min-width: 10%;
+  max-width: 30%;
+  min-height: 30%;
+  float: right;
+}
+
+h3 {
+  margin: 3%;
+}
+
+#blockY {
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  width: 20%;
+  min-height: 33%;
+  float: right;
+  background-color: rgb(143, 143, 143);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#block7 {
+  padding: 2%;
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.content {
+  float: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content > div {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+}
+
+#block3 {
+  text-align: center;
+  flex: 1;
+}
+.menu {
+  list-style-type: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  border: 1px blue solid;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+
+#block5,
+#block4 {
+  background-color: rgb(150, 84, 27);
+  padding: 10px;
+  text-align: center;
+  flex: 1;
+}
+
+#block2,
+#block6 {
+  background-color: rgb(179, 179, 46);
+  padding: 10px;
+  text-align: center;
+}
+
+.iterator {
+  display: none;
+}
